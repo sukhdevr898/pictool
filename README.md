@@ -32,3 +32,10 @@ You can find me on <br>
 ### INSTALLATION 
 
 # pictool
+$ pkg install git -y
+$ pkg install termimage -y 
+$ pkg install figlet -y
+$ pkg install
+
+
+
