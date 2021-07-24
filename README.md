@@ -38,9 +38,8 @@ You can find me on <br>
 >$ pkg install exiftool -y <br>
 >$ git clone https://github.com/sukhdevr898/pictool
 <br>
->$ cd pictool<br>
->$ bash pic.sh
-<br>
+>$ cd pictool <br>
+>$ bash pic.sh <br>
 
 
 
