@@ -1,3 +1,31 @@
 mv pic.sh pic data/data/com.termux/files/usr/bin
 chmod +x pic.sh pic
-rm -rf pictool
+if [ -e /data/data/com.termux/files/usr/bin/figlet ] ;
+then 
+echo -e "\e[0;35m ✓figlet already installed "
+else 
+pkg install figlet -y
+
+echo -e "\e[0;35m ✓figlet installed "
+fi 
+if [ -e /data/data/com.termux/files/usr/bin/termimage ] ;
+then 
+echo -e "\e[0;35m ✓termimage already installed "
+else 
+pkg install termimage -y
+
+echo -e "\e[0;35m ✓termimage installed "
+fi 
+
+if [ -e /data/data/com.termux/files/usr/bin/exiftool ] ;
+then 
+echo -e "\e[0;35m ✓exiftool already installed "
+else 
+pkg install exiftool -y
+
+echo -e "\e[0;35m ✓exiftool installed "
+fi 
+
+
+rm -rf /data/data/com.termux/files/home/pictool
+echo -e "\e[0;31m \n\t\t IF YOU WANT TO USE PIC TOOL JUST TYPE 'pic' AND USE TOOL😀 "
