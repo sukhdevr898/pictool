@@ -1,0 +1,3 @@
+mv pic.sh pic data/data/com.termux/files/usr/bin
+chmod +x pic.sh pic
+rm -rf pictool
