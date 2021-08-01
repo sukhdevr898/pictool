@@ -33,13 +33,11 @@ You can find me on <br>
 
 # pictool
 >$ pkg install git -y <br>
->$ pkg install termimage -y <br>
->$ pkg install figlet -y <br>
->$ pkg install exiftool -y <br>
 >$ git clone https://github.com/sukhdevr898/pictool
 <br>
 > $ cd pictool <br>
-> $ bash pic.sh <br>
+> $ bash setup <br>
+###for use this  tool just type 'pic'
 
 
 
