@@ -2,30 +2,31 @@ mv pic.sh /data/data/com.termux/files/usr/bin
 mv  pic /data/data/com.termux/files/usr/bin
 chmod +x /data/data/com.termux/files/usr/bin/pic.sh
 chmod +x /data/data/com.termux/files/usr/bin/pic
+echo -e "\e[0;30m \n\t\t PACKAGE CHACKING..."
 if [ -e /data/data/com.termux/files/usr/bin/figlet ] ;
 then 
-echo -e "\e[0;35m ✓figlet already installed "
+echo -e "\e[0;35m \n\t\t ✓figlet already installed❤️ "
 else 
 pkg install figlet -y
 
-echo -e "\e[0;35m  \n\t\t ✓figlet installed "
+echo -e "\e[0;35m \n\t\t ✓figlet installed❤️ "
 fi 
 if [ -e /data/data/com.termux/files/usr/bin/termimage ] ;
 then 
-echo -e "\e[0;35m  \n\t\t✓termimage already installed "
+echo -e "\e[0;35m \n\t\t✓termimage already installed "
 else 
 pkg install termimage -y
 
-echo -e "\e[0;35m  \n\t\t ✓termimage installed "
+echo -e "\e[0;35m \n\t\t ✓termimage installed "
 fi 
 
 if [ -e /data/data/com.termux/files/usr/bin/exiftool ] ;
 then 
-echo -e "\e[0;35m  \n\t\t ✓exiftool already installed "
+echo -e "\e[0;35m \n\t\t ✓exiftool already installed ❤️"
 else 
 pkg install exiftool -y
 
-echo -e "\e[0;35m   \n\t\t ✓exiftool installed "
+echo -e "\e[0;35m \n\t\t ✓exiftool installed ❤️ "
 fi 
 
 
