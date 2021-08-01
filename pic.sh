@@ -36,7 +36,7 @@ echo -e "|e[0;36m \n\t\t METADATA"
 exiftool $path
 ;;
 n)
-bash pic.sh
+bash /data/data/com.termux/files/usr/bin/pic.sh
 ;;
 esac
 if [ $op == 2 ];
@@ -53,7 +53,7 @@ echo -e "|e[0;36m \n\t\t VIEWER"
 termimage $path2
 ;;
 N)
-bash pic.sh
+bash /data/data/com.termux/files/usr/bin/pic.sh
 ;;
 y)
                                                                                   
@@ -61,7 +61,7 @@ y)
                                            termimage $path2
 ;;
 n)
-bash pic.sh
+bash /data/data/com.termux/files/usr/bin/pic.sh
 ;;
 esac
 if [ $op == 4 ];
@@ -79,7 +79,7 @@ echo -e "\e[1;31m ------------------------------------------"
 echo -e "\e[1;31m"
 echo -e "\e[1;31m"
 sleep 5.0
-bash pic.sh
+bash /data/data/com.termux/files/usr/bin/pic.sh
 fi
 if [ $op == 5 ];
 then
@@ -100,18 +100,18 @@ fi
 case "$logo2" in
 Y)
 termimage $logo 
-echo  " termimage $logo " >> logo.sh
+echo  " termimage $logo " >> data/data/com.termux/files/home/logo.sh
 figlet -f big done
 ;;
 N)
-bash pic.sh
+bash /data/data/com.termux/files/usr/bin/pic.sh
 ;;
 y)
 termimage $logo
-echo  " termimage $logo " >> logo.sh
+echo  " termimage $logo " >> /data/data/com.termux/files/home/logo.sh
 figlet -f big done
 ;;
 n)
-bash pic.sh
+bash /data/data/com.termux/files/usr/bin/pic.sh
 ;;
 esac
